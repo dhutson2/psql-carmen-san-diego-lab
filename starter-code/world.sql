@@ -31,6 +31,7 @@ CREATE TABLE country (
     code2 character(2) NOT NULL
 );
 
+
 CREATE TABLE countrylanguage (
     countrycode character(3) NOT NULL,
     language text NOT NULL,
